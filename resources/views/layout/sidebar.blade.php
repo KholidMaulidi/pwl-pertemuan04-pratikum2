@@ -34,7 +34,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="{{Route('profile')}}" class="nav-link">
+            <a href="{{Route('student',['id'=>0])}}" class="nav-link">
               <i class="nav-icon fas fa-copy"></i>
               <p>
                 Data Mahasiswa
