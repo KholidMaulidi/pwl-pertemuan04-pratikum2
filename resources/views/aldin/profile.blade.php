@@ -15,19 +15,19 @@
                             alt="User profile picture">
                     </div>
 
-                    <h3 class="profile-username text-center">Aldin Ariel Pramudya</h3>
+                    <h3 class="profile-username text-center">{{$post->name}}</h3>
 
-                    <p class="text-muted text-center">Aldin</p>
+                    <p class="text-muted text-center">{{$post->role}}</p>
 
                     <ul class="list-group list-group-unbordered mb-3">
                         <li class="list-group-item">
                             <b>Born</b> <a class="float-right">April, 23 2003</a>
                         </li>
                         <li li class="list-group-item">
-                            <b>Home</b> <a class="float-right">Batu</a>
+                            <b>Home</b> <a class="float-right">{{$post->address}}</a>
                         </li>
                         <li class="list-group-item">
-                            <b>Phone Number</b> <a class="float-right">+62 859-5435-2919</a>
+                            <b>Phone Number</b> <a class="float-right">{{$post->phone}}</a>
                         </li>
                     </ul>
                     <a href="https://www.instagram.com/aldin.pramudya/" target="_blank" class="btn btn-primary btn-block"><b>Instagram</b></a>
@@ -56,7 +56,7 @@
         </div>
         <div class="card-body">
             <div class="text-center">
-                Choice Have Concequences - Simon Riley
+                {{$post->about}}
             </div>
         </div>
         <div class="card-footer">

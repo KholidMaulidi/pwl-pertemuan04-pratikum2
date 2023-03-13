@@ -9,7 +9,7 @@
         <a href="{{Route('selamat')}}" class="nav-link">Home</a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="{{Route('profile')}}" class="nav-link">Contact</a>
+        <a href="{{Route('student',['id'=>0])}}" class="nav-link">Contact</a>
       </li>
     </ul>
 

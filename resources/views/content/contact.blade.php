@@ -30,7 +30,7 @@
                 </div>
                 <div class="card-footer">
                   <div class="text-right">
-                    <a href="{{Route('profile', ['id' => 1] )}}" class="btn btn-sm btn-primary">
+                    <a href="{{Route('student', ['id' => 1] )}}" class="btn btn-sm btn-primary">
                       <i class="fas fa-user"></i> View Profile
                     </a>
                   </div>
@@ -59,7 +59,7 @@
                 </div>
                 <div class="card-footer">
                   <div class="text-right">
-                    <a href="{{Route('profile', ['id' => 2])}}" class="btn btn-sm btn-primary">
+                    <a href="{{Route('student', ['id' => 2])}}" class="btn btn-sm btn-primary">
                       <i class="fas fa-user"></i> View Profile
                     </a>
                   </div>

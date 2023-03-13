@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContentController;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\PostController;
 use App\Http\Controllers\SelamatController;
 
 /*
@@ -27,5 +28,7 @@ Route::get('/', function () {
 Route::get('/pengalaman-kuliah', [ContentController::class, 'content'])->name('content_kuliah');
 
 Route::get('/profile/{id?}', [ContactController::class, 'profile'])->name('profile');
+
+Route::get('/student/{id}', [PostController::class, 'index'])->name('student');
 
 Route::get('/', [SelamatController::class, 'selamat'])->name('selamat');
