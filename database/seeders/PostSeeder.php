@@ -16,7 +16,11 @@ class PostSeeder extends Seeder
     public function run()
     {
         DB::table('posts')->insert([
-            
+            'name'=> 'Aldin Ariel Pramudya',
+            'role'=> 'Mahasiswa',
+            'about'=> 'Weebs/Javanese',
+            'address'=> 'Batu',
+            'phone'=> '085954352919'
         ]);
     }
 }
